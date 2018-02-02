@@ -8,6 +8,10 @@ Our study illustrates that question answering systems trained on SelQA show near
 * [Analysis of Wikipedia-based Corpora for Question Answering](https://arxiv.org/abs/1801.02073). Tomasz Jurczyk, Amit Deshmane, and Jinho D. Choi. arXiv:1801.02073, 2017.
 * Download: [answer sentence selection](ass), [answer triggering](at).
 
+## Acknowledgement
+
+We gratefully acknowledge the support from [Infosys Ltd](https://www.infosys.com). Any contents in this material are those of the authors and do not necessarily reflect the views of Infosys Ltd.
+
 ## Contact
 
 * [Tomasz Jurczyk](https://github.com/tjurczyk)
