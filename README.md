@@ -7,3 +7,8 @@ Our study illustrates that question answering systems trained on SelQA show near
 * [SelQA: A New Benchmark for Selection-based Question Answering](https://arxiv.org/abs/1606.08513). Tomasz Jurczyk, Michael Zhai, and Jinho D. Choi. In Proceedings of the 28th International Conference on Tools with Artificial Intelligence, ICTAI'16, 820-827, San Jose, CA, 2016 ([slides](https://www.slideshare.net/jchoi7s/selqa-a-new-benchmark-for-selectionbased-question-answering)). 
 * [Analysis of Wikipedia-based Corpora for Question Answering](https://arxiv.org/abs/1801.02073). Tomasz Jurczyk, Amit Deshmane, and Jinho D. Choi. arXiv:1801.02073, 2017.
 * Download: [answer sentence selection](ass), [answer triggering](at).
+
+## Contact
+
+* [Tomasz Jurczyk](https://github.com/tjurczyk)
+* [Jinho D. Choi](https://github.com/jdchoi77)
