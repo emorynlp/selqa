@@ -4,7 +4,8 @@ The SelQA dataset provides crowdsourced annotation for two selection-based quest
 Our dataset composes about 8K factoid questions for the top-10 most prevalent topics among Wikipedia articles.
 Our study illustrates that question answering systems trained on SelQA show nearly as robust results as ones trained on a much larger dataset such as [SQuAD](https://rajpurkar.github.io/SQuAD-explorer/).
 
-* Download: [answer sentence selection](ass), [answer triggering](at).
+* [Answer sentence selection](ass).
+* [Answer triggering](at).
 
 ## References
 
