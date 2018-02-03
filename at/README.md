@@ -12,13 +12,13 @@ JSON files, `selqa-at-(train|dev|test).json` are provided for analysis:
 * `article`: the Wikipedia article related to this question.
 * `section`: the section in the Wikipedia article related to this question.
 * `topic`: the topic of this question, where the topics are *MUSIC*, *TV*, *TRAVEL*, *ART*, *SPORT*, *COUNTRY*, *MOVIES*, *HISTORICAL EVENTS*, *SCIENCE*, *FOOD*.
-* `q_types`: the types of this question, where the types are *what*, *why*, *when*, *who*, *where*, and *how*.  If empty, none of the predefined types are found in this question.
-* `is_paraphrase`: *True* if this question is a paragraph of some other question; otherwise, *False*.
+* `q_types`: the list of question types, where the types are *what*, *why*, *when*, *who*, *where*, and *how*.  If empty, none of the those types are recognized in this question.
+* `is_paraphrase`: *True* if this question is a paragraph of some other question in this dataset; otherwise, *False*.
 * `candidate_list`: the list of 5 candidate sections:
   * `article`: the title of the candidate article.
-  * `section`: the section of the candidate article.
+  * `section`: the section in the candidate article.
   * `candidates`: the list of sentences in this candidate section.
-  * `answers`: the indices of the candidates containing the answer context of this question (can be empty).
+  * `answers`: the list of candidate indices containing the answer context of this question (can be empty).
 
 ## Data for Experiments
 

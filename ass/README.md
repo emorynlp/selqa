@@ -1,19 +1,19 @@
 # Answer Sentence Selection
 
-Answer sentence selection is a question answering task that given a question, it selects sentences within a provided document that contain the answer context.
+Answer sentence selection is a question answering task that given a question, it selects sentences within a provided document that contain the answer context of the question.
 
 ## Data for Analysis
 
-JSON files, `selqa-ass-(train|dev|test).json` are provided for analysis: 
+JSON files, `selqa-ass-(train|dev|test).json`, are provided for analysis: 
 
 * `question`: the question.
 * `article`: the Wikipedia article related to this question.
 * `section`: the section in the Wikipedia article related to this question.
 * `topic`: the topic of this question, where the topics are *MUSIC*, *TV*, *TRAVEL*, *ART*, *SPORT*, *COUNTRY*, *MOVIES*, *HISTORICAL EVENTS*, *SCIENCE*, *FOOD*.
-* `q_types`: the types of this question, where the types are *what*, *why*, *when*, *who*, *where*, and *how*.  If empty, none of the predefined types are found in this question.
-* `is_paraphrase`: *True* if this question is a paragraph of some other question; otherwise, *False*.
+* `q_types`: the list of question types, where the types are *what*, *why*, *when*, *who*, *where*, and *how*.  If empty, none of the those types are recognized in this question.
+* `is_paraphrase`: *True* if this question is a paragraph of some other question in this dataset; otherwise, *False*.
 * `candidates`: the list of sentences in the related section.
-* `answers`: the indices of the candidates containing the answer context of this question.
+* `answers`: the list of candidate indices containing the answer context of this question.
 
 ## Data for Experiments
 
